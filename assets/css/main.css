@@ -2732,6 +2732,8 @@ input[type="button"]:disabled,
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
 	background-size: auto, 150%;
+	object-fit: cover;
+	object-position: center;
 	color: rgba(255, 255, 255, 0.5);
 	height: 100%;
 	left: 0;
