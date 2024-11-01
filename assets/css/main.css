@@ -206,7 +206,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #49bf9d !important;
+	color: #00a6fb !important;
 	text-decoration: none;
 }
 
@@ -1866,6 +1866,10 @@ article.special {
 	text-align: center;
 }
 
+article div.techs h2 {
+	color: #787878;
+}
+
 header p {
 	color: #b2b2b2;
 	position: relative;
@@ -1894,6 +1898,7 @@ header h6+p {
 
 header.major h2 {
 	font-size: 2em;
+	color: #1982c4;
 }
 
 /* Form */
@@ -2353,6 +2358,7 @@ div.techs {
 
 div.techs h2 {
 	margin: 0;
+	color: #ff595e;
 }
 
 ul.dev-icons {
@@ -2598,17 +2604,17 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-	border-color: #49bf9d;
-	color: #49bf9d !important;
+	border-color: #00a6fb;
+	color: #00a6fb !important;
 }
 
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-	background-color: rgba(73, 191, 157, 0.1);
-	border-color: #49bf9d;
-	color: #49bf9d !important;
+	background-color: rgba(0, 166, 251, 0.1);
+	border-color: #00a6fb;
+	color: #00a6fb !important;
 }
 
 input[type="submit"].icon,
@@ -2699,6 +2705,7 @@ input[type="button"]:disabled,
 .work-item h3 {
 	font-size: 1em;
 	margin: 0 0 0.5em 0;
+	color: #ff595e;
 }
 
 .work-item p {
@@ -2821,6 +2828,16 @@ input[type="button"]:disabled,
 	color: inherit;
 }
 
+#footer>.inner .button {
+	margin: 12px 0;
+	display: inline-block;
+	color: #ffffff !important;
+}
+
+#footer>.inner .button:hover {
+	color: #00a6fb !important;
+}
+
 /* Main */
 
 #main {
@@ -2844,6 +2861,11 @@ input[type="button"]:disabled,
 
 #one>.actions {
 	margin-top: 2em;
+}
+
+#two>h2,
+#three>h2 {
+	color: #1982c4;
 }
 
 /* Poptrox */
