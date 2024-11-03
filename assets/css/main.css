@@ -2868,6 +2868,11 @@ input[type="button"]:disabled,
 	color: #1982c4;
 }
 
+.resume {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 /* Poptrox */
 
 @-moz-keyframes spin {
