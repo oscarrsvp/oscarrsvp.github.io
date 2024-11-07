@@ -2253,6 +2253,9 @@ input[type="radio"]+label:before {
 .image.avatar img {
 	border-radius: 100%;
 	width: 100%;
+	border: 5px solid rgba(255, 255, 255, 0.7);
+	height: 150px;
+	object-fit: cover;
 }
 
 /* List */
